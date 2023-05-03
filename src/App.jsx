@@ -9,6 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   //TODO formatting the data
+  //TODO add a back button
 
   async function getDisks(e, key) {
     let res = await invoke("disks", {});
