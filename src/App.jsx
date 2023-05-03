@@ -44,7 +44,7 @@ function App() {
             getDisks();
           }}
         >
-          <button type="submit">ansh</button>
+          <button type="submit">Disks</button>
         </form>
       </div>
 
