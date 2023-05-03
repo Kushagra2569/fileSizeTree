@@ -8,6 +8,8 @@ function App() {
   const [dMode, setDMode] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  //TODO formatting the data
+
   async function getDisks(e, key) {
     let res = await invoke("disks", {});
     console.log(res);
