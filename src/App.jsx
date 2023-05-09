@@ -11,7 +11,6 @@ function App() {
   //TODO formatting the data
   //TODO add a back button
 
-  //write a function to convert bytes to human readable format
   function bytesToSize(bytes) {
     var sizes = ["Bytes", "KB", "MB", "GB", "TB"];
     if (bytes == 0) return "0 Byte";
